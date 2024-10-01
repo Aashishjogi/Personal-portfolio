@@ -1,0 +1,161 @@
+@media only screen and (max-width: 325px) {
+    .navbar ul li a {
+        padding: 5px 20px;
+        color: white;
+        text-decoration: none;
+        padding-left: 20%;
+        padding-right: 1.9rem;
+        animation-duration: 3s;
+        font-size: 0.8rem;
+    }
+    #home h2 {
+        overflow: hidden;
+        white-space: nowrap;
+        animation: typing 3s infinite;
+        border-right: 1px solid transparent;
+        width: 60%;
+        letter-spacing: 3px;
+        font-size: 0.8rem;
+    }
+    #Bio {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        height: 17rem;
+        width: 19rem;
+        margin-left: -1.1rem;
+        background-color: black;
+        border-radius: 51px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 255, 0.266);
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    .name p {
+        color: rgb(235, 235, 242);
+        font-size: 0.5rem;
+        padding-right: 40px;
+        overflow: hidden;
+        margin-left: 0rem;
+        white-space: nowrap;
+        line-height: 1.5rem;
+        animation: typing 6s, cursor .5s step-end infinite;
+        border-right: 1px transparent;
+        width: 101%;
+        letter-spacing: 2px;
+    }
+    .Bio img {
+        width: 59px;
+        height: 67px;
+        border-radius: 99%;
+        margin-top: -22px;
+        margin-left: 147%;
+    }
+    #Skils {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        height: 100%;
+        width: 30%;
+        background-color: black;
+        border-radius: 30px;
+        width: 15rem;
+        height: 12rem;
+        color: white;
+        margin-bottom: 4rem;
+        padding-top: 2rem;
+        margin-left: 1.3rem;
+        padding-right: 12%;
+        box-shadow: 0px 0px 20px rgba(0, 0, 255, 0.266);
+    }
+    #Projects {
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        border-radius: 10%;
+        width: 17rem;
+        height: 23rem;
+        margin-left: 7.5%;
+        box-shadow: 0px 0px 20px rgba(0, 0, 255, 0.266);
+    }
+    #Projects h1 {
+        box-shadow: 3px 4px 15px 5px rgba(0, 0, 255, 0.266);
+        border: 2px solid;
+        border-radius: -35px;
+        border: none;
+        margin-left: 137px;
+        margin: 46px 53px 32px 172px;
+        padding: 4px 33px 3px;
+        font-size: 1rem;
+        margin-right: 29%;
+        margin-left: 82px;
+    }
+    #Connect {
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        box-shadow: 0px 0px 20px rgba(0, 0, 255, 0.266);
+        border-radius: 30px;
+        width: 18rem;
+        height: 30rem;
+        margin-left: 5%;
+        padding-top: 0;
+        color: white;
+        font-size: medium;
+        margin-top: 3rem;
+    }
+    #message {
+        margin: 0px;
+        padding: -1px;
+        border-radius: -2px;
+        height: 15%;
+        width: 211px;
+        border: 3px solid rgb(85, 65, 134);
+        color: rgb(112, 112, 194);
+    }
+    #Connect h1 {
+        margin: 29px;
+        box-shadow: 5px 5px 10px 5px rgba(0, 0, 255, 0.266);
+        cursor: pointer;
+        border: 2px solid;
+        border-radius: 30px;
+        border: none;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    .links {
+        padding-left: 7%;
+        font-size: 8.4px;
+        padding-top: 3rem;
+    }
+    #submit {
+        margin: -19% -59px;
+        padding: 1% 5%;
+        width: 6rem;
+        height: 24px;
+        color: black;
+        background-color: yellow;
+        margin-left: 56px;
+        margin-top: 6px;
+        cursor: pointer;
+        border-radius: 24px;
+        font-size: 9px;
+    }
+    .input {
+        margin: 13px;
+        width: 70%;
+        height: 0px;
+        border: none;
+        outline: none;
+        border-radius: 25px;
+        border: 3px solid rgb(85, 65, 134);
+        color: rgb(112, 112, 194);
+    }
+    .fa-arrow-right:before {
+        content: "\f061";
+        margin-left: 29px;
+        font-size: 11px;
+    }
+    }
